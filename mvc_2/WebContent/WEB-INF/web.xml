@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- bookShop.java 에서 받아온 값 웹에 저장 하기 -->
+<web-app>
+<servlet>
+	<servlet-name>bookShop</servlet-name>
+	<servlet-class>book.BookShop</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>bookShop</servlet-name>
+	<url-pattern>/bookShop.do</url-pattern>  <!-- bookShop(값을 받아올 페이지 경로).do(내가 값을 전달할려는변수값) -->
+</servlet-mapping>
+</web-app>
